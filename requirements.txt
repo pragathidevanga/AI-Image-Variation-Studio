@@ -1,0 +1,10 @@
+streamlit>=1.36,<2.0
+Pillow>=10.0
+numpy>=1.26
+matplotlib>=3.8
+diffusers>=0.30
+transformers>=4.44
+accelerate>=0.33
+safetensors>=0.4
+# Install a PyTorch build appropriate for your system from https://pytorch.org/get-started/locally/
+torch

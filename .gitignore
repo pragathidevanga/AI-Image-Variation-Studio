@@ -1,0 +1,41 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.streamlit/secrets.toml
+.env
+.env.*
+.DS_Store
+
+# Model downloads and caches
+.cache/
+**/.cache/
+**/models/
+**/model_cache/
+**/huggingface_cache/
+**/huggingface/
+
+# Large model weight files
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.gguf
+*.model
+
+# Temporary and generated files
+*.tmp
+*.temp
+*.log
+*.part
+*.download
+*.incomplete
+*.swp
+*.bak
+.ipynb_checkpoints/
+
+screenshots/*
+!screenshots/README.md
